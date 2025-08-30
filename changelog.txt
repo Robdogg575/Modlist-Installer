@@ -1,0 +1,22 @@
+Modlist - Update vX.X.X Changelog
+------------------------------------------
+
+**General Improvements:**
+* Minor performance optimizations across several core mods.
+* Updated various base game patches for better stability.
+
+**Mod Additions:**
+* Added "New Fantastic Armor" mod.
+* Introduced "Improved Weapon Set" for more variety.
+
+**Mod Updates:**
+* "Dynamic Weather" updated to v2.1 (bug fixes and new weather patterns).
+* "Character Overhaul" updated to the latest version.
+
+**Mod Removals:**
+* Removed "Example Obsolete Mod" (due to instability).
+* Removed "Another Old Mod" (replaced by newer alternatives).
+
+**Profile Changes:**
+* Updated default profile INI settings for enhanced visuals.
+* Cleaned up redundant entries in "Performance Profile."

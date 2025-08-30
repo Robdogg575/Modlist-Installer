@@ -1,0 +1,11 @@
+# This is a dummy list of files and folders to be removed during an update.
+# Paths are relative to the Mod Organizer 2 installation root.
+
+# Example mod folders to remove
+mods/ExampleObsoleteMod
+mods/AnotherOldMod/subfolder
+mods/TestRemoveThisOne
+
+# Example profile folders/files to remove
+profiles/OldProfileToDelete
+profiles/UnusedProfile/config.ini
