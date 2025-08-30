@@ -1,6 +1,6 @@
 # Automated Modlist Installer & Updater Guide
 
-This guide provides step-by-step instructions for creating a custom installer and updater for a Mod Organizer 2 (MO2) modlist, using *Skyrim After Dark* as an example. It leverages Inno Setup and pre-compiled helper tools to package and distribute your modlist efficiently, with support for seamless updates. The process is divided into three phases: Preparation, Project Setup, and Script Compilation.
+This guide provides step-by-step instructions for creating a custom installer and updater for a Mod Organizer 2 (MO2) modlist, using *Skyrim After Dark* as an example. It leverages Inno Setup and pre-compiled helper tools to package and distribute your modlist efficiently, with support for seamless updates. The process is divided into three phases: Preparation, Project Setup, and Script Compilation. Screenshots of the Installer and Updater in action are at the bottom of the page.
 
 ---
 
@@ -382,3 +382,68 @@ The `update.7z` archive contains only the files changed or added in the update. 
   - The game is installed and its registry key is valid.
 
 This guide, tailored to the *Skyrim After Dark* example, provides a robust framework for creating an installer and updater for your MO2 modlist, ensuring a seamless experience for users.
+
+
+---
+
+## Screenshots
+
+Below are screenshots of the Modlist Installer and Updater in action.
+
+### Modlist Installer
+The installer guides you through setting up your modlist, starting with the initial file structure.
+
+![Installer Folder View](screenshots/Installer_0.png)
+*Initial folder with SkyrimAfterDark_Installer.exe, mods.7z, and profiles.7z.*
+
+![Installer Step 1](screenshots/Installer_1.png)
+*Select Destination Location.*
+
+![Installer Step 2](screenshots/Installer_2.png)
+*Select Start Menu Folder.*
+
+![Installer Step 3](screenshots/Installer_3.png)
+*Select Additional Tasks.*
+
+![Installer Step 4](screenshots/Installer_4.png)
+*Ready To Install.*
+
+![Installer Step 5](screenshots/Installer_5.png)
+*Installing.*
+
+![Installer Step 6](screenshots/Installer_6.png)
+*Installation progress.*
+
+![Installer Step 7](screenshots/Installer_7.png)
+*Completion screen.*
+
+### Updater
+The updater keeps your modlist current.
+
+![Updater Folder View](screenshots/Updater_0.png)
+*Initial folder with SkyrimAfterDark_Updater_v3.3.2.exe and update.7z.*
+
+![Updater Step 1](screenshots/Updater_1.png)
+*Select Destination Location.*
+
+![Updater Step 2](screenshots/Updater_2.png)
+*Confirming existing destination folder.*
+
+![Updater Step 3](screenshots/Updater_3.png)
+*Select Components.*
+
+![Updater Step 4](screenshots/Updater_4.png)
+*Select Start Menu Folder.*
+
+![Updater Step 5](screenshots/Updater_5.png)
+*Select Additional Tasks.*
+
+![Updater Step 6](screenshots/Updater_6.png)
+*Ready To Install.*
+
+![Updater Step 7](screenshots/Updater_7.png)
+*Installing.*
+
+![Updater Step 8](screenshots/Updater_8.png)
+*Completion Screen.*
+
